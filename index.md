@@ -13,7 +13,7 @@ tagline: My latest thought on whatever happens to be on my mind.
 </h2>
 <div class="post">
   {{ post.content | strip_html | truncatewords: 55 }}
-  <a href="{{ BASE_PATH }}{{ post.url }}">Read more ...</a>
+  <a href="{{ BASE_PATH }}{{ post.url }}">Read more</a>
 </div>
 {% endfor %}
 <hr>
