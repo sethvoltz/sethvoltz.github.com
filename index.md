@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Latest Ramblings
-tagline: My latest thought on whatever happens to be on my mind.
+tagline: My latest thoughts or whatever happens to be on my mind.
 ---
 {% include JB/setup %}
 
