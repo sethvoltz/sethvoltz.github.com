@@ -29,8 +29,8 @@ end
 If anyone has ways to optimize this code, please leave a comment. I'm always looking
 for ways to improve my craft. This has been tested against the supplied [test vectors][] in the RFC.
 
-(**Update 3:** I swapped out the code above with my latest code. Please see the end of the post for
-the original code and updates 1 and 2. This also fixes a bit-padding issue with the last character.)
+**Update 3:** I swapped out the code above with my latest code. Please see the end of the post for
+the original code and updates 1 and 2. This also fixes a bit-padding issue with the last character.
 
 In the code snippet above, the majority of the operation is handled in one line (`base = bytes...`)
 and the rest is there simply to allow padding to be calculated properly. Why is it then that other
@@ -55,6 +55,26 @@ I invite open dialog on this...
 [rfc 4648]: http://tools.ietf.org/html/rfc4648#page-8
 [test vectors]: http://tools.ietf.org/html/rfc4648#section-10
 
+**Update 4:** In a conversation with my friend [Jón][jon], he asked me about the original code.
+This got me thinking about how small a piece of code I could rewrite the encoder into. The snippet
+below is the result. I took the original author's 20 LoC implementation and reduced it to a single
+line that I spread out for readability. Jón also made the good observation that the original code
+looks like a port of the C implementation. Nice catch!
+
+{% highlight ruby %}
+BASE32_CHARS = "abcdefghijklmnopqrstuvwxyz234567".each_char.to_a
+
+def base32_decode(input)
+  input.scan(/[^=]/).collect { |character|
+    BASE32_CHARS.index(character).to_s(2).rjust(5,'0')
+  }.join('').scan(/.{8}/).collect { |byte|
+    byte.to_i(2).chr
+  }.join('')
+end
+{% endhighlight %}
+
+[jon]: https://github.com/jontg
+
 ----
 
 **Original Code from First Posting:**
@@ -77,9 +97,9 @@ def base32_encode(bytes)
 end
 {% endhighlight %}
 
-(**Update 1:** It occurs to me that there is a relationship between the number of bits in the last bit
+**Update 1:** It occurs to me that there is a relationship between the number of bits in the last bit
 capture that would allow the modulo-math if-block to be replaced with a case statement using length
 equlity. That could potentially be optimized further if the number of bits can be converted into 0,
-1, 3, 6 for the padding multiplier. Thoughts?)
+1, 3, 6 for the padding multiplier. Thoughts?
 
-(**Update 2:** Added in the `BASE32_CHARS` constant declaration to make the example runable.)
+**Update 2:** Added in the `BASE32_CHARS` constant declaration to make the example runable.
