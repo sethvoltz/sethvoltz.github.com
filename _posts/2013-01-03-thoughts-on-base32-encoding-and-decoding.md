@@ -15,6 +15,8 @@ overly complicated, especially given the tools built in to the language for doin
 start this off, here is my current Base32 encoder (built using the [RFC 4648][] specification):
 
 {% highlight ruby %}
+BASE32_CHARS = "abcdefghijklmnopqrstuvwxyz234567".each_char.to_a
+
 # Takes a bytestring and returns Base32 string
 def base32_encode(bytes)
   binary = bytes.unpack('B*').first
@@ -37,6 +39,8 @@ for ways to improve my craft.
 capture that would allow the modulo-math if-block to be replaced with a case statement using length
 equlity. That could potentially be optimized further if the number of bits can be converted into 0,
 1, 3, 6 for the padding multiplier. Thoughts?)
+
+(**Update 2:** Added in the `BASE32_CHARS` constant declaration to make the example runable.)
 
 In the code snippet above, the majority of the operation is handled in one line (`base = bytes...`)
 and the rest is there simply to allow padding to be calculated properly. Why is it then that other
