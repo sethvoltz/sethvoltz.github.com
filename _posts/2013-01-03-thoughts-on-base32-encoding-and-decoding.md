@@ -19,9 +19,10 @@ BASE32_CHARS = "abcdefghijklmnopqrstuvwxyz234567".each_char.to_a
 
 # Takes a bytestring and returns Base32 string
 def base32_encode(bytes)
-  bytes.unpack('B*').first.scan(/.{1,5}/).collect { |i|
+  base = bytes.unpack('B*').first.scan(/.{1,5}/).collect { |i|
     BASE32_CHARS[i.ljust(5,"0").to_i(2)]
-  }.join('') + '=' * ((8 - (base.length % 8)) % 8)
+  }.join('')
+  base + '=' * ((8 - (base.length % 8)) % 8)
 end
 {% endhighlight %}
 
