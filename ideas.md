@@ -12,6 +12,6 @@ Post Ideas
 * Useful little functions that I use
     * The `up` function, ported to work with ZSH.
 * Pay it Forward: New System Setup
-    * Ruby, MySQL, PostgreSQL, …
-    * RedHat/yum, Debian/Ubuntu/apt
+    * PostgreSQL, …
+    * Debian/Ubuntu/apt
 
