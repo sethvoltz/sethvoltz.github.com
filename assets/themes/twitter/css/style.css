@@ -24,6 +24,10 @@ h2.title a {
   color: #666;
 }
 
+code {
+  color: #005F6B;
+}
+
 /* The white background content wrapper */
 .content {
   background-color: #fff;
@@ -80,4 +84,3 @@ h2.title a {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
