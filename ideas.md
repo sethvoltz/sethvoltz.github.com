@@ -11,3 +11,7 @@ Post Ideas
     * Thoughts on portability and OS-specific blocks
 * Useful little functions that I use
     * The `up` function, ported to work with ZSH.
+* Pay it Forward: New System Setup
+    * Ruby, MySQL, PostgreSQL, …
+    * RedHat/yum, Debian/Ubuntu/apt
+
