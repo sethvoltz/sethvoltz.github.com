@@ -7,6 +7,20 @@ tags: [linux, raspbian, wifi, setup, wicd]
 ---
 {% include JB/setup %}
 
+**Update 1:** I was having some trouble with the download speeds via wifi and thought it might be an
+issue with the hardware. A little digging through my kernel logs and I found this error:
+
+    smsc95xx 1-1.1:1.0: eth0: Failed to read register index 0x00000118
+
+As far as I can tell, people think this is a power problem, but it seems to only crop up with wifi
+adapters plugged in. This put me on the hunt for how to upgrade my RasPi firmware and eventually to
+[this article][] that got me going. Between that and moving the device around a bit, I went from
+averaging 20KiB/s to peaking at over 1.5MiB/s. Hurray!
+
+[this article]: http://blog.pixelami.com/2012/06/raspberry-pi-firmware-update-for-debian-squeeze/
+
+---
+
 Right, so about a week before Christmas I get an email from [Allied Electronics][] that my Raspberry
 Pi's (Pies? Pis?) are in stock! Hurray! I will now wait a week for shipping and then another week to
 return from holiday travel! Curse you, electronic communication being faster than physical... But I
