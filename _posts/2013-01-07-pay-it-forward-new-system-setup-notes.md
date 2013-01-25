@@ -97,6 +97,8 @@ If your application requires a SQL-style database, it's hard to beat the simplic
 both setup and use. While I have been [learning more about PostgreSQL][postgres-article] recently
 for its powerful features, I still find MySQL to be a great starting point.
 
+[postgres-article]: /software/2013/01/05/upgrading-postgresql
+
 {% highlight bash %}
 % yum install mysql-server mysql-devel
 % chkconfig --level 24 mysqld on

@@ -38,6 +38,8 @@ Hopefully this write-up will help someone else, should they find themselves in t
   in my home directory. Update, restart Pow. Nothing.
 * Reboot the machine, walk away to clear head, go to geeky meetup, have lots of beer.
 
+[homebrew]: http://mxcl.github.com/homebrew/
+
 _The next morning._
 
 * `$PATH` has my shims directory in it twice, look through ZSH configs. Find I had manually added it
