@@ -64,4 +64,13 @@ And a Flickr embed of a 3D printed espresso tamper my friend did last week.
 +-- {.oembed}
 | [Phototastic](http://www.flickr.com/photos/openfly/8390248035/in/photostream/)
 
+And a tweet I put up teasing Pebble while I wait for my watch.
+
++-- {.oembed}
+| [Pebble Tweet](https://twitter.com/sethvoltz/status/294349467388358657)
+
 Not bad. Not bad at all.
+
+* * *
+
+**Update 1:** Added a twitter embed.
