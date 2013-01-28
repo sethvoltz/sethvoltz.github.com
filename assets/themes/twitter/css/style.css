@@ -32,6 +32,10 @@ html, body {
           border-radius: 0 0 6px 6px;
 }
 
+.content .post-image {
+  margin-bottom: 12px;
+}
+
 h2.title a {
   color: #666;
 }
