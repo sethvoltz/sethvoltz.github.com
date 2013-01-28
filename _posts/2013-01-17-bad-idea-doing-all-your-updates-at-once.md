@@ -3,6 +3,8 @@ layout: post
 title: "Bad Idea: Doing All Your Updates At Once"
 description: "“So, I have this great idea!” – Famous last words."
 category: rants
+image: bad-idea-doing-all-your-updates-at-once
+attribution: http://www.flickr.com/photos/pasukaru76/4892378102/
 tags: [bad-ideas, pow, rbenv, rails]
 ---
 {% include JB/setup %}

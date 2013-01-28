@@ -3,6 +3,8 @@ layout: post
 title: "Pathological Regular Expression Performance"
 description: ""
 category: code
+image: pathological-regular-expression-performance
+attribution: http://www.flickr.com/photos/rooreynolds/243810939/
 tags: [theory, link, computer-science, example, ruby]
 ---
 {% include JB/setup %}

@@ -3,6 +3,8 @@ layout: post
 title: "Pay it Forward: New System Setup Notes"
 description: ""
 category: pay-it-forward
+image: pay-it-forward-new-system-setup-notes
+attribution: http://www.flickr.com/photos/stewf/2652167644/
 tags: [system, setup, redhat, mysql, ruby, notes]
 ---
 {% include JB/setup %}

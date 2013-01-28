@@ -3,13 +3,15 @@ layout: post
 title: "Adding oEmbed to a Jekyll Site"
 description: ""
 category: code
+image: adding-oembed-to-a-jekyll-site
+attribution: http://www.flickr.com/photos/lwr/4187885866/
 tags: [jekyll, javascript, jquery, maruku, markdown]
 ---
 {% include JB/setup %}
 
 Success! I recently heard about this cool protocol called [oEmbed][] that allows a link to
 effectively self-describe how it should be embedded into a web page if it is some kind of media
-content. THe catch to add it to this blog was that I couldn't run any Jekyll Plugins on it as it is
+content. The catch to add it to this blog was that I couldn't run any Jekyll Plugins on it as it is
 hosted by GitHub and they don't allow them for security and sandboxing reasons.
 
 [oembed]: http://oembed.com

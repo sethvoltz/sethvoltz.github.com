@@ -2,7 +2,9 @@
 layout: post
 title: "Oh, yeah, that Raspberry Pi thing I setup this blog for…"
 description: ""
-category: 
+category: hardware
+image: oh-yeah-that-raspberry-pi-thing-i-setup-this-blog-for
+attribution: http://www.flickr.com/photos/gijsbertpeijs/7988262046/
 tags: [linux, raspbian, wifi, setup, wicd]
 ---
 {% include JB/setup %}

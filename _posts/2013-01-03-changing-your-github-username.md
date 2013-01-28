@@ -3,6 +3,8 @@ layout: post
 title: "Changing your GitHub username"
 description: ""
 category: code
+image: changing-your-github-username
+attribution: http://www.flickr.com/photos/othree/5229266978/
 tags: [sed, grep, xargs, locate, unix, osx, github, example]
 ---
 {% include JB/setup %}

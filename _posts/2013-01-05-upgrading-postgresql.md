@@ -3,6 +3,8 @@ layout: post
 title: "Notes on Upgrading PostgreSQL"
 description: ""
 category: software
+image: upgrading-postgresql
+attribution: http://www.flickr.com/photos/epsos/3574411866/
 tags: [software, postgresql, upgrade, osx, homebrew, technote]
 ---
 {% include JB/setup %}

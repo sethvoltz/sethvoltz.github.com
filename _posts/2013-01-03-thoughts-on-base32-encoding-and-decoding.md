@@ -3,6 +3,8 @@ layout: post
 title: "Thoughts on Base32 encoding and decoding"
 description: "Observations about how others do it"
 category: code
+image: thoughts-on-base32-encoding-and-decoding
+attribution: http://www.flickr.com/photos/aussiegall/411182765/
 tags: [base32, base64, binary, encoding, example, otp, ruby, javascript]
 ---
 {% include JB/setup %}
