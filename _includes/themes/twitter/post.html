@@ -33,7 +33,7 @@
   <div class="span4">
     <h4>Published</h4>
     <span class="date">{{ page.date | date_to_long_string }}</span>
-    under <span class="category">{{ site.categories.first.first }}</span>
+    under <span class="category">{{ page.categories.first }}</span>
 
     {% unless page.tags == empty %}
     <hr>
