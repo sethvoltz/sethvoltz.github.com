@@ -1,1 +1,14 @@
-Sorry this page does not exist =(
+<div id="four-oh-four">
+  I could not find the page you are looking for. Perhaps the <a href="/archive.html">archives</a>
+  will have it?
+</div>
+
+<script type="text/javascript">
+  var url = document.location.pathname;
+  if var match = url.match(/^\/[^0-9]+(\/[0-9]{4}\/)/) {
+    url = url.replace(match[0], match[1]);
+    var box = document.getElementById("four-oh-four");
+    box.innerText = "Redirecting...";
+    window.location = url;
+  }
+</script>
