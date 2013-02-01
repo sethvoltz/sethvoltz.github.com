@@ -4,10 +4,11 @@
 </div>
 
 <script type="text/javascript">
-  var url = document.location.pathname;
-  if var match = url.match(/^\/[^0-9]+(\/[0-9]{4}\/)/) {
+  var box, match, url;
+  url = document.location.pathname;
+  if (match = url.match(/^\/[^0-9]+(\/[0-9]{4}\/)/)) {
     url = url.replace(match[0], match[1]);
-    var box = document.getElementById("four-oh-four");
+    box = document.getElementById("four-oh-four");
     box.innerText = "Redirecting...";
     window.location = url;
   }
