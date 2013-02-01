@@ -40,6 +40,24 @@ h2.title a {
   color: #666;
 }
 
+ul.related_posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.related_posts li {
+  text-indent: 0;
+  margin: 4px 0;
+  padding: 3px 6px;
+  background: #EEE;
+  border-radius: 3px;
+}
+
+ul.related_posts li a {
+  color: #005F6B;
+}
+
 footer {
   margin-top: 20px;
 }
@@ -74,36 +92,36 @@ code {
 /* tag_box ======================================================== */
 
 .tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
+	list-style: none;
+	margin: 0;
+	padding: 5px 0 ;
+	overflow: hidden;
 }
 
 .tag_box li {
-	line-height:28px;
+	line-height: 28px;
 }
 
 .tag_box.inline li {
-	float:left;
+	float: left;
 }
 
 .tag_box a {
 	padding: 3px 6px;
 	margin: 2px;
 	background: #eee;
-	color:#005F6B;
+	color: #005F6B;
 	border-radius: 3px;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
+	vertical-align: super;
+	font-size: 0.8em;
 }
 
 .tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+	background: #57A957;
+	border: 1px solid #4C964D;
+	color: #FFF;
 }
