@@ -5,7 +5,7 @@ description: ""
 category: code
 image: imagemagick-and-rmagick-for-testing-colors
 attribution: http://www.flickr.com/photos/mrsenil/2995594424/
-tags: [imagemagick, rmagick, ruby, color, raspberrypi, shiftbrite]
+tags: [imagemagick, rmagick, ruby, color, raspberrypi, shiftbrite, github, example, homebrew]
 ---
 {% include JB/setup %}
 A couple weeks ago I started working on a pure-Ruby GPIO library for the Raspberry Pi to see whether
