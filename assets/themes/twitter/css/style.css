@@ -36,6 +36,10 @@ html, body {
   margin-bottom: 12px;
 }
 
+.go-comments {
+  padding-bottom: 20px;
+}
+
 h2.title a {
   color: #666;
 }
