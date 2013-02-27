@@ -20,7 +20,7 @@ This time I'd like to share a super simple recipe I whipped up on the fly when I
 of some chicken breast in the fridge before it went bad, and wanted a lunch that didn't take me out
 of the house.
 
-## New Kitchen Leftover Pepper Sauce
+## New Kitchen Leftovers Pepper Sauce
 
 **Prep Time:** 10 minutes  
 **Cook Time:** 20 minutes
