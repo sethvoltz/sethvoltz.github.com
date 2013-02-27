@@ -3,6 +3,8 @@ layout: post
 title: "Recipe: Leftovers to the Rescue"
 description: "Where I came up with a tasty meal with a few veggies and fridge bits"
 category: recipes
+image: recipe-leftovers-to-the-rescue
+attribution: http://www.flickr.com/photos/konarheim/6617429415/
 tags: [cooking, leftovers, chicken, pork, peppers, pasta]
 ---
 {% include JB/setup %}
