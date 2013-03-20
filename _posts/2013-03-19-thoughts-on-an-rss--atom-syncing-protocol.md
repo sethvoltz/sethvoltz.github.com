@@ -56,6 +56,17 @@ Here is what I believe would be necessary in such a syncing service:
    Additionally, a strong recommendation in the spec towards a [minimum][] [level][] of security.
    [No RC4][], TLS or better, etc.
 
+6. **Feed grouping** [^5] via tags or some equivalent mechanism. There was a bunch of talk over on the
+   list about how to properly group feeds together. I fall into the camp of people who have enough
+   feeds to want to group them. In my case, I use them to group by topic area, not importance, e.g.
+   technology, art and science, people I know in person, etc. There were a number of suggestions,
+   namely folders (a feed can be in one and only one folder), "tabs" to hold topic areas (sounds
+   like folders with a different UI, and tags, where a feed can be given one or more tags and the
+   tags are usually visually described through a folder-like metaphore. The latter seems the most
+   flexible because it allows a specification to recommend a particular UI (folders) while not
+   prohibiting alternatives (such as a news stream or "river" with distinctions by tag like
+   coloring).
+
 [brian reischl]: https://twitter.com/brianreischl
 [stupid feed tricks]: https://docs.google.com/document/d/1cvq67iQpk2C7ufOsefsfKnGCXeUIv46NQHbnHkm8PtU/edit?usp=sharing
 [openid]: http://openid.net
@@ -89,6 +100,13 @@ That about does it. I'm open to thoughts, ideas, criticisms (constructive, pleas
 etc. If anything in here was not properly credited, please leave a comment and I will link or credit
 where due.
 
+* * * 
+
+**Update 1**: Totally forgot about tags for feeds. Thanks to [DPK][] (*membership required*) on the
+list for reminding me with his followup post to mine.
+
+[dpk]: http://lists.ranchero.com/private.cgi/rss-sync-ranchero.com/2013-March/000115.html
+
 [^1]: As a faithful user of NNW for many years, I have a great deal of respect for Brent's software
 and opinions when it comes to news feeds. I still have it installed but ended up switching away
 because I used [Reeder][] on my iPhone and iPad and it was easier to also use Reeder on my Mac.
@@ -108,6 +126,8 @@ updates.
 could run their own syncing service in order to support, say, a few private feeds that require
 authentication. It would be up to the server code/service provider to then support the myriad kinds
 of authentication that might be used.
+
+[^5]: See **Update 1**
 
 [reeder]: http://reederapp.com
 [lifehacker]: http://lifehacker.com
