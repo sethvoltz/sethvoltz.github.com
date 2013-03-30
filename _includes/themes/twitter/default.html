@@ -19,14 +19,14 @@
     {% assign summary = content | split: '<div class="span8">' | last | strip_html | truncatewords: 45 %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
-    <meta name="twitter:url" content="{{ site.production_url }}{{ page.url }}">
+    <meta name="twitter:url" content="{{ site.production_url }}{{ page.url }}/">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ summary }}">
 
     <!-- http://ogp.me -->
     <meta property="og:type" content="article">
     <meta property="og:article:author" content="{{ site.author.name }}">
-    <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.production_url }}{{ page.url }}/">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:site_name" content="{{ site.title }}">
     {% if page.image %}
