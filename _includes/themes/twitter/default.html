@@ -16,15 +16,25 @@
     <link href="{{ ASSET_PATH }}/css/pygments.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     {% if page and content %}
+    {% assign summary = content | split: '<div class="span8">' | last | strip_html | truncatewords: 45 %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
     <meta name="twitter:url" content="{{ site.production_url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ content | strip_html | truncatewords: 45 }}">
+    <meta name="twitter:description" content="{{ summary }}">
+
+    <!-- http://ogp.me -->
+    <meta property="og:type" content="article">
+    <meta property="og:article:author" content="{{ site.author.name }}">
+    <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.production_url }}/assets/images/{{ page.image }}.sq.jpg">
+    <meta property="og:image" content="{{ site.production_url }}/assets/images/{{ page.image }}.sq.jpg">
     {% else %}
     <meta name="twitter:image" content="{{ site.production_url }}/assets/images/coffee_fillup.png">
+    <meta property="og:image" content="{{ site.production_url }}/assets/images/coffee_fillup.png">
     {% endif %}
     {% endif %}
   </head>
