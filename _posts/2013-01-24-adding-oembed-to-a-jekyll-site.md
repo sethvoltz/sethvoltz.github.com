@@ -25,8 +25,8 @@ including two important ones: The ability to specify class and ID names for cert
 content grouping through a div syntax. Put those together with an anchor markup and you get
 something like this:
 
-    +-- {.oembed}
     | [Maruku DIV Syntax](http://maruku.rubyforge.org/div.html)
+    {:.oembed}
 
 [jquery]: http://jquery.com
 [plugin]: http://code.google.com/p/jquery-oembed/
@@ -58,18 +58,18 @@ exceed 620px, which is the width of the content area.
 
 Demo time! Here is a YouTube video that was featured earlier this week on Hack A Day:
 
-+-- {.oembed}
 | [Retrotacular](http://www.youtube.com/watch?v=cZwq1KL4SD0)
+{:.oembed}
 
 And a Flickr embed of a 3D printed espresso tamper my friend did last week.
 
-+-- {.oembed}
 | [Phototastic](http://www.flickr.com/photos/openfly/8390248035/in/photostream/)
+{:.oembed}
 
 And a tweet I put up teasing Pebble while I wait for my watch.
 
-+-- {.oembed}
 | [Pebble Tweet](https://twitter.com/sethvoltz/status/294349467388358657)
+{:.oembed}
 
 Not bad. Not bad at all.
 

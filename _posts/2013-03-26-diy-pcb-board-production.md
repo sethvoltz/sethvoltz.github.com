@@ -24,8 +24,8 @@ video below showing the crazy etching.
 [parchment]: http://www.instructables.com/id/Toner-transfer-no-soak-high-quality-double-sided/?ALLSTEPS
 [copper]: http://milwaukeemakerspace.org/2012/04/pcb-with-lasered-paint-resist-and-fast-sponge-etching/
 
-+-- {.oembed}
 | [PCB with Lasered Paint Resist and Fast Sponge Etching](http://www.youtube.com/watch?feature=player_embedded&v=OTGZcY7WyYI)
+{:.oembed}
 
 > TomG shows how he etches PCB boards using paint, a 25W laser cutter, Muratic Acid, 30% H2O2 and a
 > sponge. Much frothing ensues.
