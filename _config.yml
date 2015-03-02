@@ -3,7 +3,6 @@
 permalink: /:year/:month/:day/:title
 
 exclude: [".ruby-version", "README.md", "Rakefile", "changelog.md", "ideas.md", "public"]
-# auto: true
 # markdown: rdiscount
 highlighter: pygments
 
