@@ -4,7 +4,7 @@ title: "On the Shoulders of Giants: My Take on the Kindle Weather Station"
 description: ""
 category: 
 image: on-the-shoulders-of-giants-my-take-on-the-kindle-weather-station
-tags: []
+tags: [kindle, raspberrypi, weather, jailbreak, cron]
 ---
 {% include JB/setup %}
 
