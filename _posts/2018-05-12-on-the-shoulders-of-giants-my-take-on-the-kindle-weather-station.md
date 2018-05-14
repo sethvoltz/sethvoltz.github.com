@@ -8,6 +8,16 @@ tags: []
 ---
 {% include JB/setup %}
 
+<div class="alert alert-warning">
+<strong>Update:</strong>
+I have started a new <a href="https://github.com/sethvoltz/kindle-weather">Github repo</a> with my
+changes to the scripts used below. This has three purposes: 1) to keep a backup of the various
+jailbreak tools I used in case the forums go down; 2) improve the setup process from the many steps
+below to something a bit more automated; and 3) to push me to further customize the scripts and
+display to fit my desires. Eventually I would like to pull real weather readings from my house and
+plot those up on the display.
+</div>
+
 I recently discovered how close the local [recycling drop-off site][recycle] is for the San
 Francisco bay when a family member gave us an old bum TV that I thought I could do something with.
 It turned out that it wasn't as great as I hoped, so it was up to me to get it to the dump. While
