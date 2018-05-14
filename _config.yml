@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".ruby-version", "README.md", "Rakefile", "changelog.md", "ideas.md", "public"]
 # markdown: rdiscount
-highlighter: pygments
+highlighter: rouge
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -16,7 +16,6 @@ author:
   email: seth@seth.to
   github: sethvoltz
   twitter: sethvoltz
-  # feedburner: feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
