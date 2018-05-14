@@ -2,7 +2,7 @@
 layout: post
 title: "On the Shoulders of Giants: My Take on the Kindle Weather Station"
 description: ""
-category: 
+category: makers
 image: on-the-shoulders-of-giants-my-take-on-the-kindle-weather-station
 tags: [kindle, raspberrypi, weather, jailbreak, cron]
 ---
